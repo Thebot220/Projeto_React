@@ -1,0 +1,174 @@
+body {
+  background-color: rgb(78, 73, 73);
+  padding: 100px;
+}
+
+.App {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: rgb(183, 130, 185);
+  padding: 20px 30px;
+  border-radius: 15px;
+}
+
+.container {
+  display: flex;
+}
+
+.container:first-child {
+  margin-bottom: 5px;
+}
+
+.container:not(:first-child) {
+  border-top: 2px solid black;
+  padding-top: 5px;
+}
+
+.section:first-child {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 350px;
+}
+
+.section:not(:first-child) {
+  padding-left: 40px;
+  width: 500px;
+}
+
+.section:not(:last-child) {
+  border-right: 2px solid #000000;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.link:hover {
+  color: purple;
+}
+
+.pendentes {
+  width: 500px;
+  padding-right: 10px;
+  border-right: 2px solid black;
+}
+
+h1 {
+  border-bottom: 2px dashed black;
+}
+
+h2 {
+  border-bottom: 2px dashed black;
+}
+
+.formTitle {
+  border-bottom: 0px;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo:not(:last-child) {
+  padding-bottom: 5px;
+  border-bottom: 2px solid black;
+}
+
+p {
+  margin: 10px 0;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #5c34AD;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: .8;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.complete {
+  margin-right: 5px;
+  background-color: green;
+  color: white
+}
+
+.erase {
+  background-color: red;
+  color: white;
+}
+
+.todoform {
+  padding-bottom: 1.5rem;
+}
+
+input, select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lnavbar {
+  display: flex;
+  list-style-type: none;
+}
+
+img {
+  width: 80px;
+  height: auto;
+  margin-left: 10px;
+}
+
+li {
+  margin-top: 15px;
+  font-size: 110%;
+}
+
+li:first-child {
+  margin-right: 15px;
+}
+
+li:not(:first-child) {
+  margin-right: 20px;
+}
+
+.paragrafo {
+  border-top: 2px solid black;
+}
+
+.clist {
+  margin-bottom: 40px;
+}
+
+.text {
+  text-indent: 40px;
+}
+
+.itemtext {
+  font-size: 110%;
+  display: flex;
+}
